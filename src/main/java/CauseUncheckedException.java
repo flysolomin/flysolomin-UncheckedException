@@ -1,3 +1,4 @@
+import java.io.UncheckedIOException;
 
 public class CauseUncheckedException {
     /**
@@ -14,6 +15,6 @@ public class CauseUncheckedException {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-
+        System.out.println (1/0);
     }
 }
